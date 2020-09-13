@@ -116,7 +116,6 @@ footer ul li {
 .form dl {
   display: flex;
   padding: 20px 0;
-  /* border-bottom: 1px dotted #676767; */
   border-bottom: 1px dotted #c69504;
 }
 .form dl:first-of-type {
@@ -382,5 +381,20 @@ footer ul li {
 }
 .form dl.multi-text dd textarea {
   width: 500px;
+}
+.form dl.name dd input:first-of-type {
+    margin: 0 30px 0 0;
+}
+.form dl.name dd input {
+    width: 225px;
+}
+.form dl.furigana dd input {
+    width: 225px;
+}
+.form dl. dd input {
+    width: 170px;
+}
+.form dl.tel dd input {
+    width: 160px;
 }
 }
